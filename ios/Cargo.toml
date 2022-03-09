@@ -1,0 +1,13 @@
+[package]
+name = "rivi-ios"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rivi-loader = { git = "https://github.com/periferia-labs/rivi-loader", branch = "ramp" }
+
+[lib]
+name = "greetings"
+crate-type = ["staticlib", "cdylib"]
